@@ -1,5 +1,12 @@
 /*Section NAV */
 
+html, body{
+   font-family: 'Poppins', sans-serif; 
+   margin: 0;
+   padding: 0; 
+   background-color: rgb(255, 255, 255); 
+}
+
 *{ 
     margin: 0;
     padding: 0; 
@@ -23,8 +30,11 @@ nav {
  nav ul {
     list-style: none;
     display: flex;
-    gap: 20px; /* Espacement entre les éléments de la liste */
- }
+    gap: 20px;
+    
+    }/* Espacement entre les éléments de la liste */
+    
+           
  
  nav ul li a {
     text-decoration: none;
@@ -38,7 +48,7 @@ nav {
  } 
  
 
- .button a {
+ .button1 a {
     background-color: rgb(55, 20, 255); /* Couleur du bouton */
     color: #fff;
     padding: 5px 10px;
@@ -47,6 +57,7 @@ nav {
     align-items: center; 
     display: flex;
     justify-content: center;
+    margin-left: 600px;
  } 
 
  /*FIN de la Section NAV */ 
@@ -74,6 +85,18 @@ nav {
     text-align: center;
  }
  
+ header p {
+      position: absolute;
+      top: 45%;
+      left: 55%;
+      
+      transform: translate(-50%, -50%);
+      color: rgb(4, 4, 4);
+      text-align: center;
+      font-size: 2.0rem;
+ }
+
+
  h2 {
     margin-top: 40px; 
     text-align: center; 
@@ -86,16 +109,40 @@ nav {
 
 
 
- .produit {
+ .article {
+   margin-top: 10px;
     box-shadow: 0 4px 6px rgba(1, 50, 83, 0.5);
     border-radius: 10px; 
     background-color: white; 
     width: 30%;
     overflow: hidden;
+    margin-left: 10px;
      
  } 
-
+ .button2 a {
+    background-color: rgb(55, 20, 255); /* Couleur du bouton */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none; 
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 1100px;
+    margin-bottom: 40px;
+    
+}
  
+image {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 150px;
+}
 
  /*header p {
     font-size: 20px;
