@@ -1,0 +1,112 @@
+/*Section NAV */
+
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+nav { 
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #999797; /* Couleur de fond de la barre de navigation */
+    object-fit: cover;
+    padding:  20px; /* Espacement interne */
+    margin: none;
+    color: #0a0909; /* Couleur du texte */ 
+    width: 100%; 
+    z-index: 10;
+ }  
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacement entre les éléments de la liste */
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    
+    
+ } 
+ 
+ nav a:hover {
+    color: black;
+ } 
+ 
+
+ .button a {
+    background-color: rgb(55, 20, 255); /* Couleur du bouton */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none; 
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+ } 
+
+ /*FIN de la Section NAV */ 
+
+ /*Section HEADER*/ 
+ 
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Espacement interne */
+    margin: none;
+    color: #0a0909; /* Couleur du texte */ 
+    width: 100%; 
+    height: 300px;
+    z-index: 10;
+    background-color: #014fe1;
+ }
+ 
+ header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+ }
+ 
+ h2 {
+    margin-top: 40px; 
+    text-align: center; 
+    margin-bottom: 20px;
+ } 
+
+
+ 
+
+
+
+
+ .produit {
+    box-shadow: 0 4px 6px rgba(1, 50, 83, 0.5);
+    border-radius: 10px; 
+    background-color: white; 
+    width: 30%;
+    overflow: hidden;
+     
+ } 
+
+ 
+
+ /*header p {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    text-align: center;
+    margin-top: 150px;
+ }*/
+ 
+ /*FIN de la Section HEADER*/ 
+ 
+ /*Section FOOTER*/
+ /*Section FIN de la section HEADER*/
