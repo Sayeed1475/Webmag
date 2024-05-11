@@ -150,8 +150,8 @@ function getData() {
         <p>
           ${afficherDescription}
         </p>
-        <div  class="button">
-          <a href="#">Lire l'article</a></div>
+        <!--<div  class="button">
+          <a href="#">Lire l'article</a></div>-->
         </div> 
         <div  class="button2">
           <a href="#">Lire l'article</a></div>
