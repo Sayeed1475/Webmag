@@ -53,15 +53,52 @@ function getData() {
       function afficherPhraseAccroche() {
       let phraseAccroche = data.journal.phraseAccroche;
       //étape 2 LE CONSOLE.LOG : Le console.log permet d'afficher les données dans la console.
-      console.log(phraseAccroche);
+      console.log(phraseAccroche); 
 
+      //JE SOUHAITE ENSUITE AFFICHER LA PHRASE D'ACCROCHE DE MON JOURNAL SUR LA PAGE WEB
+      //Avec le phraseAccrocheId j'affiche la phrase d'accroche sur la page Web, mais avant je rajoute sur le code HTML un id dans le h2 qui comprend la phrase d'accrohe (que je supprimerai par la suite car la fonction Javascript affichera la phrase en utilisant l'id) étape 2:
 
+      let phraseAccrocheId = document.getElementById("phraseAccroche");
+      console.log(phraseAccrocheId);
+
+      phraseAccrocheId.innerHTML = phraseAccroche;
 
 
       }
+      afficherPhraseAccroche(); 
 
 
 
+
+
+
+
+
+      ///LA FONCTION AFFICHER APPEL A L'ACTION
+      ///JE SOUHAITE AFFICHER LA PHRASE D'APPEL A L'ACTION DE MON JOURNAL DANS LA CONSOLE ( dans un premier temps) étape 1:
+      function afficherTexteAppelAction() {
+        let TexteAppelAction = data.journal.texteAppelAction;
+        //La varaible let TexteAppelAction permet de récuperer la donnée dans le fichier data J.SON très exactement on rentre dans la data , dans la rubrique journal et on récupère l'élément "texteAppelAction".
+
+      //étape 2 LE CONSOLE.LOG : Le console.log permet d'afficher la donnée dans la console.
+      console.log(TexteAppelAction);
+      
+      
+      
+      //ENSUITE SI JE SOUHAITE AFFICHER LA PHRASE D'APPEL A L'ACTION DE MON JOURNAL SUR LA PAGE WEB
+      //Avec le TexteAppelActionId j'affiche la phrase d'appel a l'action sur la page Web , mais avant sur la code HTML j'ai rajouter un id dans le <p> qui comprend la phrase d'appel à l'action. 
+
+
+      let TexteAppelActionId = document.getElementById("texteAppelAction");
+      console.log(TexteAppelActionId);
+
+      TexteAppelActionId.innerHTML = TexteAppelAction;
+
+      //Apres avoir ajouter un id sur le code HTML j'utilise la méthode innerHTML comme pour la phrase d'accroche précédemment. 
+
+
+      }
+      afficherTexteAppelAction();
 
 
 
