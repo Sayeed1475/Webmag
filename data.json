@@ -8,38 +8,38 @@
         "description": "Plongez dans l'univers complexe et captivant de la série The Wire avec nos analyses approfondies et nos interviews exclusives.",
         "date": "25 Avril 2024",
         "theme": "Actualités The Wire",
-        "image":""
+        "image":"image/BestMoment.jpg"
       },
       "articles": [
         {
           "titre": "Analyse de la saison : décryptage des thèmes sociaux et politiques de The Wire",
           "date": "20 Avril 2024",
           "theme": "Analyse",
-          "image":""
+          "image":"image/TheWire2.jpg"
         },
         {
           "titre": "Entretien avec un acteur emblématique : réflexions sur son expérience sur le plateau de tournage",
           "date": "15 Avril 2024",
           "theme": "Acteurs",
-          "image":""
+          "image":"image/TheWire3.jpg"
         },
         {
           "titre": "Top 10 des moments les plus marquants de la série The Wire",
           "date": "5 Avril 2024",
           "theme": "Moments",
-          "image":""
+          "image":"image/BestMoment2.jpg"
         },
         {
           "titre": "Les lieux emblématiques de Baltimore : à la découverte des décors de The Wire",
           "date": "28 Mars 2024",
           "theme": "Lieux",
-          "image":""
+          "image":"image/LieuDécors.jpg"
         },
         {
           "titre": "Les secrets de la création : entretien avec le créateur de The Wire sur son processus d'écriture",
           "date": "20 Mars 2024",
           "theme": "Création",
-          "image":""
+          "image":"image/Création.jpg"
         }
       ],
       "themes": [
@@ -67,16 +67,19 @@
       "auteurs": [
         {
           "prenom": "David",
+          "image": "image/DavidSimon.jpg",
           "typeExperience": "Fan de The Wire",
           "presentation": "En tant que fan passionné de The Wire, je vous offre des analyses approfondies et des réflexions sur cette série culte."
         },
         {
           "prenom": "Sarah",
+          "image": "image/Sarah.jpg",
           "typeExperience": "Critique de séries",
           "presentation": "En tant que critique de séries, je vous livre des critiques éclairées et des analyses détaillées sur chaque aspect de la série The Wire."
         },
         {
-          "prenom": "Michael",
+          "prenom": "Michael", 
+          "image": "image/VanJones.jpg",
           "typeExperience": "Journaliste culturel",
           "presentation": "En tant que journaliste culturel, je vous propose des interviews exclusives, des articles de fond et des couvertures approfondies sur la série The Wire."
         }
