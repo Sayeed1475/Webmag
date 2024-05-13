@@ -145,11 +145,11 @@ function getData() {
     let HTMLafficherArticlePrincipal = `<div class="container">
     <div class="article">
       <img src="${afficherImage}" alt="">
-       <h4> ${afficherTitre} </h4>
+       <h1> "${afficherTitre}" </h1>
        <h2>${afficherTheme} - ${afficherDate}<h2> 
-        <p>
+        <h4>
           ${afficherDescription}
-        </p>
+        </h4>
         <!--<div  class="button">
           <a href="#">Lire l'article</a></div>-->
         </div> 

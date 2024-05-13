@@ -80,6 +80,38 @@ header img{
  object-fit: cover;
  margin-bottom: 20px;
 
+} 
+
+#titreJournal{
+   color:rgb(0, 8, 255) !important;
+} 
+
+#texteAppelAction{
+   color:blue !important;
+} 
+
+
+header h1 {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-size: 4.0rem;
+} 
+
+header p{
+
+
+   text-align: center;
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-size: 2.0rem;
+   color: rgb(4, 4, 4);
 }
  /*FIN de la Section NAV */ 
 
@@ -207,10 +239,14 @@ image {
  } 
 .container {
    margin-top: 40px;
-   margin-left: 20px; 
+   margin-left: 100px;
+   margin-right: 100px; 
    text-align: left;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
+   
 } 
+
+
 
 /*.container h1 {
     text-align: left;
@@ -246,7 +282,10 @@ image {
 }
 
 
-
+div#articlePrincipal{
+   width: 95%;
+   height: 30%;
+}
 
 /*-SECTION COMPRENANT LA DIV CLASS CONTAINER IMAGE ET BOUTON2-*/
 .produits-container {
