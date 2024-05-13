@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #908f8f; /* Couleur de fond de la barre de navigation */
+    background-color: #808080; /* Couleur de fond de la barre de navigation */
     object-fit: cover;
     padding:  20px; /* Espacement interne */
     margin: none;
@@ -70,12 +70,22 @@ nav {
    
     height: 90px;
     
+} 
+
+
+
+header img{
+ height:750px; 
+ width: 100%;
+ object-fit: cover;
+ margin-bottom: 20px;
+
 }
  /*FIN de la Section NAV */ 
 
  /*Section HEADER*/ 
  
- header {
+ /*header {
     
     
     width: 100%;  
@@ -83,7 +93,7 @@ nav {
     z-index: 10;
     background-color: #05142f;
    
- }
+ }*/
  
 /*.header-content h1{
    text-align: center;
